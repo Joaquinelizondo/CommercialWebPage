@@ -1,0 +1,742 @@
+html {
+  padding: 0px;
+}
+body {
+  padding: 0px;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #2a3342;
+  margin: auto;
+  background-image: url(/Materiales/grilla.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
+}
+button {
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  padding: 40px;
+}
+/*--------COLORES--------*/
+/* VERDE : #2ad167  //  rgb(45, 209,103);
+/* GRIS OSCURO : #2a3342
+/* GRIS MEDIO : #93A1B6
+/* GRIS MUY CLARO : #f7f8f9
+/*--------------NAV------------- */
+
+.nav__main {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.logo__verde {
+  height: 50px;
+}
+.icono {
+  flex-grow: 1;
+  height: 30px;
+  text-align: left;
+  margin-left: 9px;
+}
+.menu {
+  flex-grow: 1;
+  height: 5px;
+}
+.menu a {
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #93a1b6;
+}
+.login {
+  flex-grow: 1;
+  height: 30px;
+  text-align: right;
+}
+
+/*--------------MAIN------------- */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__width {
+  max-width: 1440px;
+}
+.logodorado img {
+  position: relative;
+  bottom: 171px;
+  left: 229px;
+  height: 150px;
+}
+.puntosazules {
+  width: 130px;
+  position: absolute;
+  top: 460px;
+  left: 1176px;
+  height: 150px;
+}
+
+/*--------------PRECIOS------------- */
+.precios__title h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.precios__title h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.texto__precios_section {
+  margin: 40px;
+  margin-left: 50px;
+}
+.div__seccion__precios {
+  max-width: 1440px;
+}
+.precios__title {
+  display: flex;
+  justify-content: center;
+}
+/*-------------- TARJETA-PRECIOS------------- */
+.precios__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+}
+.card__style {
+  width: 270px;
+  background-color: #f7f8f9;
+  margin: 10px;
+  height: 360px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/*----INFO-PLANES--- */
+.tick-green {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  margin-left: 25px;
+}
+.ico__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 7px;
+}
+.info__planes p {
+  margin: 2px;
+  margin-left: 10px;
+}
+
+/*------PRECIOS-textos en tarjetas -----*/
+.span__precio__bg-green {
+  color: #2ad167;
+  padding: 3px;
+  background-color: rgb(45, 209, 103, 0.1);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: x-small;
+}
+.p__planes {
+  color: #2ad167;
+  font-weight: 600;
+}
+.p__precio-grande {
+  font-size: 30px;
+  font-weight: 400;
+  color: #2a3342;
+}
+.p__transparente {
+  font-weight: 500;
+  color: #93a1b6;
+  font-size: 13px;
+}
+.info__planes p {
+  font-size: small;
+}
+/*-----------------Precios-tarjetas DIV----------------------*/
+.precio__tamanos {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
+.p__precio-grande.simbolo-pesos {
+  font-size: medium;
+  font-weight: 500;
+  display: flex;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
+.p__precio-grande.numero-pesos {
+  font-weight: 500;
+}
+
+.p__precio-grande.mes-pesos {
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/*------------BOTONES---------*/
+.boton__blanco__nav {
+  background-color: #ffffff;
+  color: #2a3342;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 5px;
+  height: 22px;
+  cursor: pointer;
+  margin-top: 7px;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.boton__blanco {
+  background-color: #ffffff;
+  color: #2a3342;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 5px;
+  height: 22px;
+  cursor: pointer;
+  margin-top: 7px;
+  font-weight: 400;
+  padding: 8px;
+}
+.boton__blanco.main__btn {
+  border-style: solid;
+  border-color: #93a1b6;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.boton__verde {
+  background-color: #2ad167;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  width: 90%;
+  height: 35px;
+  margin-top: 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.boton__verde.register {
+  font-size: small;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 29px;
+  border-radius: 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.span__precio__bg-green.main {
+  color: white;
+  background-color: #2ad167;
+  width: 42px;
+}
+.descripcion {
+  font-size: 55px;
+}
+
+.brief {
+  font-size: 15px;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 2pt;
+}
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.presentacion {
+  width: 50%;
+}
+
+.foto1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.footergral {
+  background-color: #2a3342;
+}
+
+.h4 {
+  word-spacing: 3pt;
+}
+
+.footer1 {
+  justify-content: center;
+  align-items: center;
+  word-spacing: 3vh;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5vh;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.icono1 {
+  margin: 6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icono1 {
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+.boton__nuevo {
+  background-color: #2ad167;
+  color: white;
+  border-radius: 15%;
+  border-style: none;
+}
+img.iconos {
+  filter: invert();
+}
+.iconos {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #2ad167;
+  color: white;
+  padding: 15px;
+  border-radius: 10%;
+  height: 22px;
+  width: 22px;
+}
+
+.foot1 {
+  color: white;
+  opacity: 50%;
+  margin: 2vh;
+  font-weight: 200;
+  font-size: small;
+}
+
+.foot2 {
+  color: white;
+  opacity: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 5vh;
+  font-weight: 200;
+  font-size: small;
+}
+
+.imgfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 20px;
+  width: 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+  padding: 1vh;
+  padding-top: 2vh;
+}
+
+.foot3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 120%;
+  font-weight: bold;
+  color: white;
+  margin: 1vh;
+}
+
+.boton__verde.main_btn {
+  width: 125px;
+}
+
+section.login {
+  display: flex;
+  align-items: center;
+}
+
+.foto__main {
+  padding: 0%;
+}
+
+/* --------MODAL-------- */
+
+.modal-container {
+  opacity: 1;
+  visibility: hidden;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  padding: 30px;
+  background-color: #2a3342 !important;
+  border-radius: 10px;
+  top: -40%;
+  position: relative;
+  transition: transform 1s;
+  transform: translateY(50%);
+}
+.modal-close {
+  transform: translateY(-200%);
+}
+.close {
+  position: absolute;
+  top: -4px;
+  right: 9px;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  color: #ffffff;
+  justify-content: center;
+}
+.close:hover {
+  background-color: rgba(255, 1, 1, 0.5);
+  border-radius: 5px;
+}
+
+/* ------------------------ */
+
+.body_form {
+  background-color: #2a3342 !important;
+  padding-top: 10vh;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.piepagina2 {
+  display: flex;
+  color: #2ad167;
+  justify-content: left;
+}
+
+.pop {
+  display: flex;
+  justify-content: center;
+}
+
+.correo {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2vh;
+}
+
+.img_form {
+  display: flex;
+  justify-content: center;
+  width: 40px !important;
+  height: 40px !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  background-color: #2ad167;
+  height: 70px;
+  width: 70px;
+  padding: 10px 10px 10px 10px;
+  object-fit: scale-down;
+}
+
+.parte2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.parte5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.corre1 {
+  color: white;
+}
+
+.login {
+  color: white;
+  font-size: 30px;
+}
+
+.botton {
+  border-radius: 20%;
+}
+
+.boton_form {
+  width: 100%;
+  background-color: #2ad167;
+  color: white;
+  border-radius: 10%;
+}
+
+label {
+  color: white;
+}
+
+.subt1 {
+  color: #93a1b6;
+  opacity: 70%;
+  font-size: 18px;
+}
+
+.boton_form {
+  width: 130%;
+  height: 4vh;
+  border: white !important;
+}
+
+.remain {
+  color: white;
+  align-items: right;
+}
+
+.forgot {
+  display: flex;
+  align-items: left !important;
+  text-align: left !important;
+  justify-content: left !important;
+  color: #2ad167;
+}
+
+.parte3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1vh;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1vh;
+}
+
+.parte5 {
+  margin-top: 3vh;
+  justify-content: center;
+}
+
+.btn_form {
+  width: 100% !important;
+  background-color: #2ad167 !important;
+  border-color: #2ad167 !important;
+  border-radius: 10px;
+  color: white;
+  height: 5vh !important;
+}
+
+.piepagina1 {
+  color: white;
+}
+
+.btn {
+  background-color: white !important;
+  width: 95% !important;
+  height: 3vh !important;
+  color: grey !important;
+  text-align: start !important;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form-check-input {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.parte5 {
+  font-size: 60% !important;
+}
+
+.form-check-label {
+  font-size: 60%;
+}
+
+.forgot {
+  display: flex;
+  font-size: 60%;
+  margin-left: 15vh;
+  margin-top: 1vh;
+}
+.footermobile {
+  display: flex;
+  flex-direction: row;
+}
+.footermobile2 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* -----------MOBILE--------- */
+
+@media only screen and (max-width: 390px) {
+  .nav__main {
+    flex-direction: column;
+  }
+  body {
+    margin: 0px;
+    width: 100%;
+  }
+
+  /* NAV */
+  .menu {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    height: 8px;
+  }
+  .menu a {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .boton__blanco__nav {
+    position: relative;
+    left: 106px;
+    top: -61px;
+  }
+  .boton__verde.register {
+    width: 100px;
+    position: relative;
+    left: 106px;
+    top: -61px;
+    height: 28px;
+    margin-right: 19px;
+  }
+
+  .logo__verde {
+    position: relative;
+    right: 142px;
+    top: -13px;
+  }
+  /* MAIN */
+
+  .main1 {
+    flex-direction: column;
+  }
+  .main {
+    padding-top: 0px;
+  }
+  .presentacion {
+    width: 100%;
+  }
+  .foto1 {
+    margin-top: 40px;
+  }
+  .descripcion {
+    font-size: 31px;
+  }
+
+  /* PRECIOS */
+  .div__seccion__precios {
+    max-width: 390px;
+  }
+  .skills {
+    align-items: center;
+  }
+  /* SKILLS */
+  .skills {
+    width: 310px;
+    margin: 0px;
+    padding: 0vh;
+  }
+  .skills h2 {
+    width: 300px;
+  }
+  .skills {
+    margin: 0px;
+  }
+  .icono1 {
+    width: 100%;
+    margin: 30px;
+  }
+
+  /* Footer */
+  .foot1 {
+    margin: 1vh;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer2 {
+    margin: 0px;
+  }
+  .foot2 {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+
+  /* MODAL */
+}
